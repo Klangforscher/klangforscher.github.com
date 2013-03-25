@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="row">
+<div class="large-12 columns">
+<h1>{{ page.title }}</h1>
+
+<p>
+{{ content }}
+</p>
+<p>{{ page.date | date: "%d.%m.%Y"}}</p>
+
+<ul>
+  <li><a href="#"><i class="icon-play"></i></a></li>
+<li><a class="icon-cloud-download" href="{{ page.mp3 }}"></a></li>
+<li><a class="icon-share" href="#"></a></li>
+</ul>
+
+</div>
+</div>
+
+{% for post in site.categories.audio %}
+        {% if post.url == page.url %}
+            {% assign post_index0 = forloop.index0 %}
+            {% assign post_index1 = forloop.index %}
+        {% endif %}
+    {% endfor %}
+    {% for post in site.categories.audio %}
+        {% if post_index0 == forloop.index %}
+            {% assign next_post = post.url %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+            {% assign prev_post = post.url %}
+        {% endif %}
+    {% endfor %}
+    {% if next_post %}
+    <a  class="next" href="{{ next_post }}"><i class="icon-chevron-left"></i></a>
+    {% endif %}
+    {% if prev_post %}
+    <a class="prev" href="{{ prev_post }}"><i class="icon-chevron-right"></i></a>
+    {% endif %}
+
