@@ -4,4 +4,5 @@ category: audio
 title: 'Daydreamer'
 file: 'daydreamer.mp3'
 background: '3971993438_8b7382604a_o.jpg'
+color: '#FF0000'
 ---

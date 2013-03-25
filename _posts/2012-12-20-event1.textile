@@ -4,4 +4,5 @@ category: event
 title: 'Teh Prdy'
 tags: 'test'
 file: 'alone.mp3'
+color: '#00FFFF'
 ---

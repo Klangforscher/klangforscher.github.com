@@ -8,8 +8,16 @@
   <link rel="stylesheet" href="/css/font-awesome-social.css" />
   <link rel="stylesheet" href="/css/main.css" />
   <script src="/js/vendor/custom.modernizr.js"></script>
+  <style>
+    body{
+      background-image: url(/img/out/{{ page.background }});
+      color:{{ page.color }}!important;
+    }
+    a{ color:{{ page.color }}!important; }
+    a:hover{ color:{{ page.color }}!important; }
+  </style>
 </head>
-<body style="background-image:url(/img/{{ page.background }})">
+<body>
  {% include header.html %}
       {{ content }}
  {% include footer.html %}
