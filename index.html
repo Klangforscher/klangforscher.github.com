@@ -1,15 +1,16 @@
 ---
-layout: start
+layout: default
 title: start
 background: '3888254846_a9382a0ec1_o.jpg'
 color: '#FF5F41'
 ---
 
 <div class="intro">
-  <h1 id="fittext">{{ site.categories.event[0].date | date: "%d.%m."}} {{ site.categories.event[0].title }}</h1>
+  <h1 id="fittext">{{ site.categories.event.first.date | date: "%d.%m."}} {{ site.categories.event.first.title }}</h1>
 </div>
 
 <div class="content">
+
   <ul class="tracks">
   {% for post in site.categories.audio %}
   <li><a href="{{ post.url }}" >{{ post.title }}</a></li>
@@ -21,4 +22,12 @@ color: '#FF5F41'
   <li><a href="#">{{ post.date | date: "%d. %m. %Y" }} {{ post.title }}</a></li>
   {% endfor %}
   </ul>
+
+</div>
+
+
+<div class="downloadwrap">
+<div class="download">
+  <a href="/download/klangforscher.zip">Free Download<br />klangforscher.zip<br />7h |  250MB</a>
+</div>
 </div>

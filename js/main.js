@@ -1,4 +1,46 @@
+/*global jQuery */
+/*!	
+* FitText.js 1.1
+*
+* Copyright 2011, Dave Rupert http://daverupert.com
+* Released under the WTFPL license 
+* http://sam.zoy.org/wtfpl/
+*
+* Date: Thu May 05 14:23:00 2011 -0600
+*/
 
+(function( $ ){
+	
+  $.fn.fitText = function( kompressor, options ) {
+	   
+    // Setup options
+    var compressor = kompressor || 1,
+        settings = $.extend({
+          'minFontSize' : Number.NEGATIVE_INFINITY,
+          'maxFontSize' : Number.POSITIVE_INFINITY
+        }, options);
+	
+    return this.each(function(){
+
+      // Store the object
+      var $this = $(this); 
+        
+      // Resizer() resizes items based on the object width divided by the compressor * 10
+      var resizer = function () {
+        $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
+      };
+
+      // Call once to set.
+      resizer();
+				
+      // Call on resize. Opera debounces their resize by default. 
+      $(window).on('resize', resizer);
+      	
+    });
+
+  };
+
+})( jQuery );
 
 $("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "160px" });
 
@@ -18,59 +60,3 @@ $(document).keydown(function(e) {
   }
 });
 
-
-
-      audiojs.events.ready(function() {
-        var audios = document.getElementsByTagName('audio');
-
-        var a1 = audiojs.create(audios[0], {
-          css: false,
-          createPlayer: {
-            markup: false,
-            playPauseClass: 'play-pauseZ',
-            scrubberClass: 'scrubberZ',
-            progressClass: 'progressZ',
-            loaderClass: 'loadedZ',
-            timeClass: 'timeZ',
-            durationClass: 'durationZ',
-            playedClass: 'playedZ',
-            errorMessageClass: 'error-messageZ',
-            playingClass: 'playingZ',
-            loadingClass: 'loadingZ',
-            errorClass: 'errorZ'
-          }
-        });
-
-        var a2 = audiojs.create(audios[1]);
-/*
-        var a3 = audiojs.create(audios[2], {
-          createPlayer: {
-            markup: '\
-              <div class="play-pause"> \
-                <p class="play"></p> \
-                <p class="pause"></p> \
-                <p class="loading"></p> \
-                <p class="error"></p> \
-              </div> \
-              <div class="scrubber"> \
-                <div class="progress"></div> \
-                <div class="loaded"></div> \
-              </div> \
-              <div class="time"> \
-                <em class="played">00:00</em>/<strong class="duration">00:00</strong> \
-              </div> \
-              <div class="error-message"></div>',
-            playPauseClass: 'play-pause',
-            scrubberClass: 'scrubber',
-            progressClass: 'progress',
-            loaderClass: 'loaded',
-            timeClass: 'time',
-            durationClass: 'duration',
-            playedClass: 'played',
-            errorMessageClass: 'error-message',
-            playingClass: 'playing',
-            loadingClass: 'loading',
-            errorClass: 'error'
-          });
-*/
-      });

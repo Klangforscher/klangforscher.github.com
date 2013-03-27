@@ -1,19 +1,39 @@
 @import compass/css3
 @import compass/reset
 
-
 $font_path: "/fonts/simplon" !default
 +font-face("Simplon_BP_Regular", font-files("/fonts/simplon/woff/Simplon_BP_Regular_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Regular_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 +font-face("Simplon_BP_Medium", font-files("/fonts/simplon/woff/Simplon_BP_Medium_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Medium_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Medium_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 +font-face("Simplon_BP_Regular_Italic", font-files("/fonts/simplon/woff/Simplon_BP_Regular_Italic_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Regular_Italic_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Regular_Italic_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 +font-face("Simplon_BP_Mono_Regular", font-files("/fonts/simplon/woff/Simplon_BP_Mono_Regular_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Mono_Regular_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Mono_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 
+.downloadwrap
+  text-align: center
+  width: 100%
+  display: block
+  clear: both
+  padding: 50px 0px
 
-
+.download
+  font-size: 16px
+  display: inline-block
+  width: 200px
+  height: 200px
+  border-radius: 50%
+  background: #FFF
+  opacity: 0.8
+  text-align: center
+  line-height: 2
+  a
+    position: relative
+    top: 55px
+    text-transform: uppercase
+    font-family: "Simplon_BP_Mono_Regular"
 p
   max-width: 700px
   line-height: 1.4
   padding-top: 20px
+
 header
   text-align: center
   padding: 100px 0
@@ -33,9 +53,16 @@ h2
 .datum
   float: left
 
-.actions
-  text-align: center
+.ui
+  padding: 10px 0px
+  display: inline-block
   width: 100%
+  text-align: center
+  ul
+    display: inline-block
+    text-align: center
+    margin: 0 auto
+    padding: 10px
   a
     font-family: "Simplon_BP_Mono_Regular"
     font-weight: normal
@@ -56,21 +83,14 @@ ul, li
 .events li
   text-decoration: line-through
 
-.next, .prev
-  position: absolute
-  top: 37%
-  font-size: 40px
-
-.next
-  left: 20px
-.prev
-  right: 20px
 
 .content
   padding: 100px 0
-  min-height: 100%
   display: block
-  ul
+  min-height: 200px
+  max-width: 700px
+  margin: 0 auto
+  .tracks, .events
     width: 50%
     margin: 0px
     padding: 0px
@@ -79,6 +99,8 @@ ul, li
     font-size: 18px
     padding-top: 10px
     padding-bottom: 10px
+  p
+    padding: 10px
 body
   font-family: "Simplon_BP_Regular"
   margin: 0 auto
@@ -122,9 +144,10 @@ footer
     display: inline-block
   li
     float: left
+    margin-bottom: 10px
   a
     text-transform: uppercase
-    font-size: 30px
+    font-size: 18px
     letter-spacing: 1px
     padding: 10px
 
