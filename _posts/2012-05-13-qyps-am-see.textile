@@ -1,0 +1,10 @@
+---
+layout: default
+category: event
+title: 'Qyps am See'
+tags: 'test'
+file: 'alone.mp3'
+color: '#00FFFF'
+---
+
+Da könnte ich was hin schreiben.
