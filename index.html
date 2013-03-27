@@ -6,11 +6,11 @@ color: '#FF5F41'
 ---
 
 <div class="intro">
-  <h1>{{ site.categories.event[0].date | date: "%d|%m"}} {{ site.categories.event[0].title }}</h1>
+  <h1 id="fittext">{{ site.categories.event[0].date | date: "%d.%m."}} {{ site.categories.event[0].title }}</h1>
 </div>
 
 <div class="content">
-  <ul>
+  <ul class="tracks">
   {% for post in site.categories.audio %}
   <li><a href="{{ post.url }}" >{{ post.title }}</a></li>
   {% endfor %}
@@ -20,6 +20,46 @@ color: '#FF5F41'
   {% for post in site.categories.event %}
   <li><a href="#">{{ post.date | date: "%d. %m. %Y" }} {{ post.title }}</a></li>
   {% endfor %}
+<li>2013-04-20 Raumstation SG/CH</li>
+<li>2013-04-13 Qyps SG/CH</li>
+<li>2013-03-07 Tankstell SG/CH</li>
+<li>2013-02-03 Qyps SG/CH</li>
+<li>2012-12-31 Silvester Tankstell SG/CH</li>
+<li>2012-11-18 Qyps SG/CH</li>
+<li>2012-11-03 Bierhof SG/CH</li>
+<li>2012-06-24 Qyps am See SG/CH</li>
+<li>2012-05-26 Tonhalle SG/CH</li>
+<li>2012-07-21 Kulturfestival SG/CH</li>
+<li>2012-06-23 Abbruchhaus @ Lokremise SG/CH</li>
+<li>2012-05-18 Kugel SG/CH</li>
+<li>2012-05-13 Qyps am See SG/CH</li>
+<li>2012-04-05 Stoffel Fabrik SG/CH</li>
+<li>2012-02-18 Qyps SG/CH</li>
+<li>2012-02-04 Avantbart Hintere Post SG/CH</li>
+<li>2012-01-28 Scharzer Engel SG/CH</li>
+<li>2011-12-16 Tankstell SG/CH</li>
+<li>2011-11-25 Qyps SG/CH</li>
+<li>2011-10-15 G-JazzClub SG/CH</li>
+<li>2011-10-14 Baracca SG/CH</li>
+<li>2011-09-22 Reitschule Bern BE/CH</li>
+<li>2011-07-22 Kulturfestival SG/CH</li>
+<li>2011-06-18 Kugel SG/CH</li>
+<li>2010-12-17 Atelier Kuspi SG/CH</li>
+<li>2011-05-07 Tankstell SG/CH</li>
+<li>2011-04-07 saasfee* Pavilon Frankfurt am Main (Musikmesse) DE</li>
+<li>2011-01-22 Tankstell SG/CH</li>
+<li>2011-01-01 Silvester Kugel SG/CH</li>
+<li>2010-11-26 Studio 15 SG/CH</li>
+<li>2010-08-14 Streetparade Swiss Inovation Stage ZH/CH</li>
+<li>2010-04-09 Reaktor ZH/CH</li>
+<li>2010-01-29 Palace SG/CH</li>
+<li>2010-01-08 Rap SG 4 Grabenhalle SG/CH</li>
+<li>2009-11-27 Starter SG/CH</li>
+<li>2009-11-07 Cuphub SG/CH</li>
+<li>2009-08-01 Pow-Wow openair SG/CH</li>
+<li>2009-07-18 Sirupclub (Toxicfm Radiosendung) SG/CH</li>
+<li>2009-06-13 Cuphub SG/CH</li>
+<li>2009-06-03 Chill n Grill Printlounge SG/CH</li>
+<li>2009-05-09 Kugel SG/CH</li>
   </ul>
 </div>
-

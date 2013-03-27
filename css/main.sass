@@ -1,22 +1,59 @@
+@import compass/css3
 @import compass/reset
 
+
+$font_path: "/fonts/simplon" !default
++font-face("Simplon_BP_Regular", font-files("/fonts/simplon/woff/Simplon_BP_Regular_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Regular_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
++font-face("Simplon_BP_Medium", font-files("/fonts/simplon/woff/Simplon_BP_Medium_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Medium_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Medium_1.otf", opentype), "#{$font_path}.eot", normal, bold)
++font-face("Simplon_BP_Regular_Italic", font-files("/fonts/simplon/woff/Simplon_BP_Regular_Italic_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Regular_Italic_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Regular_Italic_1.otf", opentype), "#{$font_path}.eot", normal, bold)
++font-face("Simplon_BP_Mono_Regular", font-files("/fonts/simplon/woff/Simplon_BP_Mono_Regular_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Mono_Regular_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Mono_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
+
+
+
+p
+  max-width: 700px
+  line-height: 1.4
+  padding-top: 20px
 header
   text-align: center
   padding: 100px 0
   h1
+    font-weight: 800
     font-size: 20px
     text-transform: uppercase
+    font-family: "Simplon_BP_Mono_Regular"
   h2
     font-size: 12px
 
-h1
-  font-size: 100px
 h2
   font-size: 20px
+.datum, .time
+  font-size: 14px
+  padding: 10px
+.datum
+  float: left
 
+.actions
+  text-align: center
+  width: 100%
+  a
+    font-family: "Simplon_BP_Mono_Regular"
+    font-weight: normal
+    font-size: 16px
+    text-transform: uppercase
+    padding: 10px
+  li
+    float: left
+
+#fittext
+  width: 100%
+  display: block
+  line-height: 1
+  margin: 0px
+  padding: 0px
 ul, li
   list-style: none
-.events a
+.events li
   text-decoration: line-through
 
 .next, .prev
@@ -31,42 +68,55 @@ ul, li
 
 .content
   padding: 100px 0
+  min-height: 100%
+  display: block
   ul
     width: 50%
     margin: 0px
     padding: 0px
     float: left
   li
+    font-size: 18px
     padding-top: 10px
     padding-bottom: 10px
 body
+  font-family: "Simplon_BP_Regular"
   margin: 0 auto
-  max-width: 70em
   background: #000 no-repeat center center fixed
   background-size: cover
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
   a
     text-decoration: none
 .intro
   padding: 0px 0px
   margin: 0px 0px
   text-align: center
+  width: 100%
   h1
-    font-size: 160px
-    font-weight: 100
-    line-height: 1.3
+    font-family: "Simplon_BP_Medium"
+    //font-size: 160px
+    font-weight: normal
+    line-height: 1.4
     padding: 0px
     margin: 0px
+    width: 100%
+    display: inline-block
 
 ul, ol
   text-align: center
 
 footer
-  position: absolute
-  lefT: 0px
-  bottom: 0px
+  display: block
+  clear: both
   text-align: center
   width: 100%
-  padding: 50px 0px
+  padding: 100px 0px
+  margin: 0
   ul
     width: auto
     display: inline-block
@@ -74,12 +124,10 @@ footer
     float: left
   a
     text-transform: uppercase
-    font-size: 20px
+    font-size: 30px
     letter-spacing: 1px
     padding: 10px
 
-.audiojs
-  display: none
 
 ol
   padding: 0px
