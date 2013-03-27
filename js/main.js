@@ -3,16 +3,6 @@
 $("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "160px" });
 
 
-if($(".tracks").length > 0){
-  var fakeTracks = "";
-
-  for(var i=0;i<50;i++){
-    var randomName = Faker.Name.findName();
-    fakeTracks += '<li><a href="#">'+randomName+'</a></li>';
-  }
-  $(".tracks").append(fakeTracks);
-}
-
 $(document).keydown(function(e) {
   var unicode = e.charCode ? e.charCode : e.keyCode;
   if (unicode == 37) {
