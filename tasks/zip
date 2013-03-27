@@ -1,0 +1,4 @@
+# /bin/sh
+
+zip -r download/klangforscher.zip mp3
+
