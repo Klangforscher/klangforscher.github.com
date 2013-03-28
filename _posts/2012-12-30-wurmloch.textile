@@ -7,8 +7,3 @@ background: '3971204855_9516000057_o.jpg'
 color: '#FDDFB2'
 ---
 
-That’s all fine but using rotate and translate to move a camera where you want it and point toward what you want to see is not always easy. For example if we wanted the camera to always point at a specific one of the ‘F’s it would take some pretty crazy math to compute how to rotate the camera to point at that ‘F’ while it goes around the circle of ‘F’s.
-
-Fortunately there’s an easier way. We can just decide where we want the camera and what we want it to point at and then compute a matrix that will put the camera there. Based on how matrices work this is surpurisingly easy.
-
-
