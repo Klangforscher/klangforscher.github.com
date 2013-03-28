@@ -12,7 +12,7 @@ $font_path: "/fonts/simplon" !default
   width: 100%
   display: block
   clear: both
-  padding: 50px 0px
+  padding: 20px 0px
 
 .download
   font-size: 16px
@@ -20,13 +20,17 @@ $font_path: "/fonts/simplon" !default
   width: 200px
   height: 200px
   border-radius: 50%
-  background: #FFF
+  background: #5D4588
   opacity: 0.8
   text-align: center
   line-height: 2
+  +transition-property(background)
+  +transition-duration(1s)
+  &:hover
+    background: #000
   a
     position: relative
-    top: 55px
+    top: 35px
     text-transform: uppercase
     font-family: "Simplon_BP_Mono_Regular"
 p
