@@ -1,0 +1,17 @@
+#! /bin/sh
+
+ seconds=0
+    find mp3 -type f | {
+    while read -r line ; do
+      tracklength=$(afinfo "$line" | grep duration | cut -f3 -d" " | cut -f1 -d".")
+      seconds=$((seconds+$tracklength))
+    done
+    minutes=$(($seconds / 60 ))
+    hours=$(($minutes / 60))
+    min=$(($minutes - $hours * 60))
+    sec=$(($seconds - $hours * 60 * 60 - $min * 60 ))
+    time=`printf "%02d" $hours`:"$min":"$sec"
+    filesize=$(du -sh download/klangforscher.zip | cut -f1 -d"M")
+    sed -i '' "s/.*<span id=\"duration\">\(.*\)<\/span>.*/<span id=\"duration\">${time}<\/span>/g" index.html
+    sed -i '' "s/.*<span id=\"filesize\">\(.*\)<\/span>.*/<span id=\"filesize\">${filesize} MB<\/span>/g" index.html
+    }
