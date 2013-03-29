@@ -15,6 +15,14 @@
     a{ color:{{ page.color }}!important; }
     a:hover{ color:{{ page.color }}!important; }
   </style>
+  {% if page.previous %}
+  <link rel="prefetch" href="/img/out/{{ page.previous.background }}" />
+  <link rel="prerender" href="/img/out/{{ page.previous.background }}" />
+  {% endif %}
+  {% if page.next %}
+  <link rel="prefetch" href="/img/out/{{ page.next.background }}" />
+  <link rel="prerender" href="/img/out/{{ page.next.background }}" />
+  {% endif %}
 </head>
   <body>
   {% include header.html %}
