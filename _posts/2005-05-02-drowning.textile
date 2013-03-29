@@ -1,0 +1,9 @@
+---
+layout: audio
+title: 'drowning'
+tags: 'test'
+category: audio
+file: '2005-05-02-drowning.mp3'
+background: '3972080296_31bce23637_o.jpg'
+color: '#FF67AA'
+---

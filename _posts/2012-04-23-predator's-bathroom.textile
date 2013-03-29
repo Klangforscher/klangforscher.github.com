@@ -1,0 +1,9 @@
+---
+layout: audio
+title: 'Predator's Bathroom'
+tags: 'test'
+category: audio
+file: '2012-04-23-predator's-bathroom.mp3'
+background: '3972080296_31bce23637_o.jpg'
+color: '#FF67AA'
+---

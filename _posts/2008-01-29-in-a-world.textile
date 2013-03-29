@@ -1,0 +1,9 @@
+---
+layout: audio
+title: 'in-a-world'
+tags: 'test'
+category: audio
+file: '2008-01-29-in-a-world.mp3'
+background: '3972080296_31bce23637_o.jpg'
+color: '#FF67AA'
+---

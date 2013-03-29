@@ -1,6 +1,0 @@
----
-layout: default
-category: event
-title: 'Party 2'
----
-lalala

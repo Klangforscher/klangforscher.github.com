@@ -1,0 +1,9 @@
+---
+layout: audio
+title: 'Kunststoff'
+tags: 'test'
+category: audio
+file: '2007-05-22-kunststoff.mp3'
+background: '3972080296_31bce23637_o.jpg'
+color: '#FF67AA'
+---

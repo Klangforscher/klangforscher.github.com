@@ -1,0 +1,9 @@
+---
+layout: audio
+title: 'Alone'
+tags: 'test'
+category: audio
+file: '2013-02-09-alone.mp3'
+background: '3972080296_31bce23637_o.jpg'
+color: '#FF67AA'
+---
