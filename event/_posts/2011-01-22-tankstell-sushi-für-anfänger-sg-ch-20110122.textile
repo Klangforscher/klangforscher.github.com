@@ -1,5 +1,4 @@
 ---
 layout: default
-category: event
 title: 'Tankstell-Sushi-für-Anfänger SG/CH'
 ---

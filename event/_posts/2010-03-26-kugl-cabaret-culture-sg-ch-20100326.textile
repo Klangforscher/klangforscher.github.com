@@ -1,5 +1,4 @@
 ---
 layout: default
-category: event
 title: 'Kugl Cabaret Culture SG/CH'
 ---

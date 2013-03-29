@@ -1,5 +1,4 @@
 ---
 layout: default
-category: event
 title: 'Kugl sprengt sich ins 2011 SG/CH'
 ---

@@ -1,5 +1,4 @@
 ---
 layout: default
-category: event
 title: 'Tankstell C64 SG/CH'
 ---

@@ -1,5 +1,4 @@
 ---
 layout: default
-category: event
 title: 'Streetparade Swiss Inovation Stage ZH/CH'
 ---

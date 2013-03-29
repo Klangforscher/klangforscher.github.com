@@ -1,5 +1,4 @@
 ---
 layout: default
-category: event
 title: 'Qyps On The Sea SG/CH'
 ---

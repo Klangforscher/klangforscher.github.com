@@ -1,5 +1,4 @@
 ---
 layout: default
-category: event
 title: 'Cuphub SG/CH'
 ---
