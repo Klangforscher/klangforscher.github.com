@@ -1,9 +1,0 @@
----
-layout: audio
-title: 'Machinedrum-2xGameboy-Space-Echo'
-tags: 'test'
-category: audio
-file: '2010-12-23-c64-machinedrum-2xgameboy-spaceecho.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
----

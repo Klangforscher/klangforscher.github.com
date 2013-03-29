@@ -1,0 +1,7 @@
+---
+layout: audio
+title: 'Monosherman'
+file: '2007-08-19-monosherman.mp3'
+background: '3972080296_31bce23637_o.jpg'
+color: '#FF67AA'
+---

@@ -1,9 +1,0 @@
----
-layout: audio
-title: 'I-need-Space'
-tags: 'test'
-category: audio
-file: '2010-06-02-i-need-space.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
----

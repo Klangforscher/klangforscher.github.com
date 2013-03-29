@@ -1,5 +1,0 @@
----
-layout: default
-category: event
-title: 'für events und audio, grad en separate ordner?? wa meinsch du? LG'
----

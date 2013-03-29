@@ -1,9 +1,0 @@
----
-layout: audio
-title: 'JumpAndRun'
-tags: 'test'
-category: audio
-file: '2012-09-28-jumpandrun.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
----

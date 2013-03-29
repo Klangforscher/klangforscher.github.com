@@ -1,9 +1,0 @@
----
-layout: audio
-title: 'monoloop'
-tags: 'test'
-category: audio
-file: '2008-10-06-monoloop.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
----

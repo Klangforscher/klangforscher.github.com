@@ -1,9 +1,0 @@
----
-layout: audio
-title: 'SunSyn-tune1-01'
-tags: 'test'
-category: audio
-file: '2011-11-10-sunsyn-tune1-01.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
----

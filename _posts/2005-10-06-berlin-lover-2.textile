@@ -1,9 +1,0 @@
----
-layout: audio
-title: 'Berlin-Lover-2'
-tags: 'test'
-category: audio
-file: '2005-10-06-berlin-lover-2.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
----
