@@ -1,0 +1,7 @@
+#! /bin/sh
+
+for file in $( find audio/_posts/ -iname "*.textile");do
+ mp3=mp3/$(grep "file:" $file | sed "s/file: '//g" | sed "s/'//g" )
+ meta=$(exiftool $mp3)
+ echo $meta
+done
