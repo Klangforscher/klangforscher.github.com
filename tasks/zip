@@ -1,4 +1,4 @@
 # /bin/sh
 
-zip -r download/klangforscher.zip mp3
+zip -r mp3/klangforscher.zip mp3
 
