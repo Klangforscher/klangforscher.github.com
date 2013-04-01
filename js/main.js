@@ -12,7 +12,6 @@
 (function( $ ){
 	
   $.fn.fitText = function( kompressor, options ) {
-	   
     // Setup options
     var compressor = kompressor || 1,
         settings = $.extend({
@@ -24,7 +23,6 @@
 
       // Store the object
       var $this = $(this); 
-        
       // Resizer() resizes items based on the object width divided by the compressor * 10
       var resizer = function () {
         $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
@@ -35,7 +33,6 @@
 				
       // Call on resize. Opera debounces their resize by default. 
       $(window).on('resize', resizer);
-      	
     });
 
   };
@@ -44,6 +41,20 @@
 
 $("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "160px" });
 
+var a = audiojs.createAll({
+  trackEnded: function() {
+    if($(".next").length > 0){
+      $(".next")[0].click();
+    }
+  }
+});
+var audio = a[0];
+
+$('#playbtn, .intro').click(function(e) {
+  $('#playbtn').toggleClass("ispaused isplaying");
+  e.preventDefault();
+  audio.playPause();
+});
 
 $(document).keydown(function(e) {
   var unicode = e.charCode ? e.charCode : e.keyCode;
@@ -56,7 +67,8 @@ $(document).keydown(function(e) {
     $(".prev")[0].click();
     }
   } else if (unicode == 32) {
-    //audio.playPause();
+    audio.playPause();
+    e.preventDefault();
+    $('#playbtn').toggleClass("ispaused isplaying");
   }
 });
-

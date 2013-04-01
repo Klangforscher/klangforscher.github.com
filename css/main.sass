@@ -7,6 +7,10 @@ $font_path: "/fonts/simplon" !default
 +font-face("Simplon_BP_Regular_Italic", font-files("/fonts/simplon/woff/Simplon_BP_Regular_Italic_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Regular_Italic_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Regular_Italic_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 +font-face("Simplon_BP_Mono_Regular", font-files("/fonts/simplon/woff/Simplon_BP_Mono_Regular_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Mono_Regular_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Mono_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 
+.ispaused:before
+  content: "play"
+.isplaying:before
+  content: "pause"
 .downloadwrap
   text-align: center
   width: 100%
@@ -94,6 +98,7 @@ ul, li
   min-height: 200px
   max-width: 700px
   margin: 0 auto
+.listwrap
   .tracks, .events
     width: 50%
     margin: 0px
@@ -118,10 +123,14 @@ body
   user-select: none
   a
     text-decoration: none
+
+.audiojs
+  display: none
 .intro
   padding: 0px 0px
   margin: 0px 0px
   text-align: center
+  cursor: pointer
   width: 100%
   h1
     font-family: "Simplon_BP_Medium"

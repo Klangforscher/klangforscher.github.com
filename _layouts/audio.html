@@ -28,7 +28,7 @@ layout: default
     <a rel="next" class="next" href="{{ site.categories.audio.last.url }}">&larr; Back</a>
     {% endif %}
     </li>
-    <li><a href="#">play</a></li>
+    <li><a id="playbtn" class="ispaused" href="#"></a></li>
     <li>
     {% if prev_post %}
     <a rel="prev" class="prev" href="{{ prev_post }}">Next &rarr;</a>
