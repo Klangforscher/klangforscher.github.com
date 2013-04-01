@@ -1,9 +1,16 @@
 h1. klangforscher.ch
 
 
+h2. Layouts
+
+Default: Startpage with all audio and events, highlights the next event.
+Audio: Page for Tracks, with player, prev-next navigation and related tracks.
 
 
-h3. Audio
+h2. Posts
+
+
+h4. Audio
 
 Posts in /audio/_posts/*
 Files in mp3/*
@@ -15,27 +22,28 @@ Metadata:
 * background
 
 
-
-h3. Events
+h4. Events
 
 Posts in /event/_posts/*
+Files in: ...
 Metadata:
 * layout
 * title
 
 
-
-h3. Images
+h4. Images
 
 Original images in img/in/*
 Optimized images in img/out/*
 use /tasks/filter to render all images
 
 
+h5. Tools
 
-"jekyll":https://github.com/mojombo/jekyll/
-"image magick":http://www.imagemagick.org/script/index.php
-"audio.js":http://kolber.github.com/audiojs/
-"afinfo":https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/afinfo.1.html
-"exiftool":http://owl.phy.queensu.ca/~phil/exiftool/
+
+* "jekyll":https://github.com/mojombo/jekyll/
+* "image magick":http://www.imagemagick.org/script/index.php
+* "audio.js":http://kolber.github.com/audiojs/
+* "afinfo":https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/afinfo.1.html
+* "exiftool":http://owl.phy.queensu.ca/~phil/exiftool/
 
