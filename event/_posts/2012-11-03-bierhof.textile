@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Bierhof SG/CH'
+title:'Bierhof'
 ---

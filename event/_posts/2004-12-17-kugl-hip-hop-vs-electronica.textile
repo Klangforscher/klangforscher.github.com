@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Kugl Hip-Hop vs Electronica SG/CH'
+title:'Kugl Hip-Hop vs Electronica'
 ---

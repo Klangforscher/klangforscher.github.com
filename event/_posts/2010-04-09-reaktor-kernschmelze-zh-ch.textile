@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Reaktor Kernschmelze ZH/CH'
+title:'Reaktor Kernschmelze ZH'
 ---

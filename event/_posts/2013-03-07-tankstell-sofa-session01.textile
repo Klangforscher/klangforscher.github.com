@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Tankstell Sofa Session 01 SG/CH'
+title:'Tankstell Sofa Session 01'
 ---

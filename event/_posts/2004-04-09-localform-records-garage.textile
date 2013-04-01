@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Localform Records @ Garage SG/CH'
+title:'Localform Records @ Garage'
 ---

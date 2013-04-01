@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Baracca Wax SG/CH'
+title:'Baracca Wax'
 ---

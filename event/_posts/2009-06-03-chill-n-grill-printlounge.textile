@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Chill n Grill Printlounge SG/CH'
+title:'Chill n Grill Printlounge'
 ---

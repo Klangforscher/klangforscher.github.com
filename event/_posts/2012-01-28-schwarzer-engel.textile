@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Schwarzer Engel SG/CH'
+title:'Schwarzer Engel'
 ---

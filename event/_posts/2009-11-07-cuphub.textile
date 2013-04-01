@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Cuphub SG/CH'
+title:'Cuphub'
 ---

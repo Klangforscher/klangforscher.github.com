@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Stoffelfabrik Projekt Stoffel Tschüss Widnau/CH'
+title:'Stoffelfabrik Projekt Stoffel Tschüss Widnau'
 ---

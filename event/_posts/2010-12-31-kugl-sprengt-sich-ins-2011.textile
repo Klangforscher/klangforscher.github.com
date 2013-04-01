@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Kugl sprengt sich ins 2011 SG/CH'
+title:'Kugl sprengt sich ins 2011'
 ---

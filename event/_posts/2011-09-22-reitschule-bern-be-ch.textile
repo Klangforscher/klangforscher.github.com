@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Reitschule Bern BE/CH'
+title:'Reitschule Bern BE'
 ---

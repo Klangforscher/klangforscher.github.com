@@ -1,4 +1,4 @@
 ---
 layout: default
-title: "Kulturfestival'12 SG/CH"
+title: "Kulturfestival'12 /"
 ---

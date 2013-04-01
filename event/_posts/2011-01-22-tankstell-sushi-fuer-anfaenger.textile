@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Tankstell-Sushi-für-Anfänger SG/CH'
+title:'Tankstell-Sushi-für-Anfänger'
 ---

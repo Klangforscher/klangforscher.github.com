@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Avantbart Hintere Post SG/CH'
+title:'Avantbart Hintere Post'
 ---

@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Abbruchhaus @ Lokremise SG/CH'
+title:'Abbruchhaus @ Lokremise'
 ---

@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Kugl SG/CH'
+title:'Kugl'
 ---
