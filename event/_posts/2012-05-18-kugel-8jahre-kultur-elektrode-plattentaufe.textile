@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Kugl 8Jahre Kultur Elektrode Plattentaufe'
+title: 'Kugl 8Jahre Kultur Elektrode Plattentaufe'
 ---

@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Sattelkammer FriDayShake'
+title: 'Sattelkammer FriDayShake'
 ---

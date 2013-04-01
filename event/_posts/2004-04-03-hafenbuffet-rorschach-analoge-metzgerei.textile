@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Hafenbuffet Rorschach Analoge Metzgerei'
+title: 'Hafenbuffet Rorschach Analoge Metzgerei'
 ---

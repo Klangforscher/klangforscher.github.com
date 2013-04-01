@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Avantbart Hintere Post'
+title: 'Avantbart Hintere Post'
 ---

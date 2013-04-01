@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Studio 15 4Takt'
+title: 'Studio 15 4Takt'
 ---

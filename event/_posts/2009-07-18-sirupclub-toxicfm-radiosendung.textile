@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Sirupclub toxicfm Radiosendung'
+title: 'Sirupclub toxicfm Radiosendung'
 ---

@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Pow Wow Openair'
+title: 'Pow Wow Openair'
 ---

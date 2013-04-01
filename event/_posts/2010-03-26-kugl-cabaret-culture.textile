@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Kugl Cabaret Culture'
+title: 'Kugl Cabaret Culture'
 ---

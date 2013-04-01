@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Qyps On The Sea'
+title: 'Qyps On The Sea'
 ---

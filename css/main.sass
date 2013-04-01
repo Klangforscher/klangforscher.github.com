@@ -7,6 +7,15 @@ $font_path: "/fonts/simplon" !default
 +font-face("Simplon_BP_Regular_Italic", font-files("/fonts/simplon/woff/Simplon_BP_Regular_Italic_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Regular_Italic_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Regular_Italic_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 +font-face("Simplon_BP_Mono_Regular", font-files("/fonts/simplon/woff/Simplon_BP_Mono_Regular_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Mono_Regular_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Mono_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 
+#lastupdate
+  width: 100%
+  padding: 50px 0px
+  text-align: center
+  line-height: 1.5
+  text-transform: uppercase
+  font-size: 12px
+  letter-spacing: 2px
+
 .ispaused:before
   content: "play"
 .isplaying:before
@@ -88,7 +97,7 @@ h2
   padding: 0px
 ul, li
   list-style: none
-.events li
+.beentheredonethat
   text-decoration: line-through
 
 
@@ -127,7 +136,7 @@ body
 .audiojs
   display: none
 .intro
-  padding: 0px 0px
+  padding: 0px 0px 50px
   margin: 0px 0px
   text-align: center
   cursor: pointer

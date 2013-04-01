@@ -1,4 +1,4 @@
 ---
 layout: default
-title:'Streetparade Swiss Inovation Stage ZH'
+title: 'Streetparade Swiss Inovation Stage ZH'
 ---
