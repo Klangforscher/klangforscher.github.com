@@ -1,0 +1,41 @@
+h1. klangforscher.ch
+
+
+
+
+h3. Audio
+
+Posts in /audio/_posts/*
+Files in mp3/*
+Metadata:
+* layout
+* title
+* tags
+* color
+* background
+
+
+
+h3. Events
+
+Posts in /event/_posts/*
+Metadata:
+* layout
+* title
+
+
+
+h3. Images
+
+Original images in img/in/*
+Optimized images in img/out/*
+use /tasks/filter to render all images
+
+
+
+"jekyll":https://github.com/mojombo/jekyll/
+"image magick":http://www.imagemagick.org/script/index.php
+"audio.js":http://kolber.github.com/audiojs/
+"afinfo":https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/afinfo.1.html
+"exiftool":http://owl.phy.queensu.ca/~phil/exiftool/
+
