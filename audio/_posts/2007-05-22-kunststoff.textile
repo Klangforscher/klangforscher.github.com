@@ -2,6 +2,6 @@
 layout: audio
 title: 'Kunststoff'
 file: '2007-05-22-kunststoff.mp3'
-background: '3972080296_31bce23637_o.jpg'
+background: '3971239609_a070bf4994_o.jpg'
 color: '#FF67AA'
 ---

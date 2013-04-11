@@ -2,6 +2,6 @@
 layout: audio
 title: 'in a world'
 file: '2008-01-29-in-a-world.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
+background: '8362690172_4e9af92859_o.jpg'
+color: '#032161'
 ---

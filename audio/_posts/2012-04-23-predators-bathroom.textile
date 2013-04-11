@@ -2,6 +2,6 @@
 layout: audio
 title: 'Predators Bathroom'
 file: '2012-04-23-predators-bathroom.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
+background: 'P1030439.jpg'
+color: '#0B1938'
 ---
