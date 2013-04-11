@@ -3,6 +3,6 @@ layout: audio
 title: 'Berlin Lover-2'
 tags: 'othertag'
 file: '2005-10-06-berlin-lover-2.mp3'
-background: 'P1030482.jpg'
-color: '#04044D'
+background: '4726910865_352e3405f8_o.jpg'
+color: '#FF5200'
 ---
