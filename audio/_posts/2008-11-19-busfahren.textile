@@ -2,6 +2,6 @@
 layout: audio
 title: 'Busfahren'
 file: '2008-11-19-busfahren.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
+background: 'P1030272.jpg'
+color: '#EEE'
 ---

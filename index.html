@@ -4,7 +4,7 @@ title: start
 background: '3888254846_a9382a0ec1_o.jpg'
 color: '#FF5F41'
 ---
-<div class="intro"><h1 id="fittext">{{ site.categories.event.first.date | date: "%d.%m.%Y"}} {{ site.categories.event.first.title }}</h1></div>
+<div class="intro"><h1 id="fittext">{{ site.categories.event.first.date | date: "%d.%m.%Y"}}<br />{{ site.categories.event.first.title }}</h1></div>
 <div class="listwrap">
   {% include tracks.html %}
   {% include events.html %}

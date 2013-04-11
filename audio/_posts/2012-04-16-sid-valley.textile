@@ -2,6 +2,6 @@
 layout: audio
 title: 'Sid Valley'
 file: '2012-04-16-sid-valley.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
+background: 'dunhuang_ali_2006290_lrg.jpg'
+color: '#FFF'
 ---

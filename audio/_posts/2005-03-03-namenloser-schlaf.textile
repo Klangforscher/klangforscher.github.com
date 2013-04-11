@@ -2,6 +2,6 @@
 layout: audio
 title: 'Namenloser Schlaf'
 file: '2005-03-03-namenloser-schlaf.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
+background: '5243264919_e57ba3fa8d_o.jpg'
+color: '#E0E0E0'
 ---

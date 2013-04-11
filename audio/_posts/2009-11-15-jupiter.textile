@@ -2,6 +2,6 @@
 layout: audio
 title: 'Jupiter'
 file: '2009-11-15-jupiter.mp3'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
+background: '3815038157_4192533c23_o.jpg'
+color: '#725279'
 ---

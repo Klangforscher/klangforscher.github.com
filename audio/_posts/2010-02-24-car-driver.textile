@@ -2,6 +2,6 @@
 layout: audio
 title: 'Car Driver'
 file: '2010-02-24-car-driver.mp3'
-background: '3972080296_31bce23637_o.jpg'
+background: '3971993438_8b7382604a_o.jpg'
 color: '#FF67AA'
 ---

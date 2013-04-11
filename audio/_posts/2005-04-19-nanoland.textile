@@ -2,7 +2,6 @@
 layout: audio
 title: 'nanoland'
 file: '2005-04-19-nanoland.mp3'
-tags: 'testtag'
-background: '3972080296_31bce23637_o.jpg'
-color: '#FF67AA'
+background: 'pineislandglacier_etm_2001013_lrg.jpg'
+color: '#000'
 ---
