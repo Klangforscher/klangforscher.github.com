@@ -3,5 +3,5 @@ layout: audio
 title: 'JumpAndRun'
 file: '2012-09-28-jumpandrun.mp3'
 background: 'alaska_tmo_2012134_lrg.jpg'
-color: '#FF0000'
+color: '#FFF'
 ---

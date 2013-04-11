@@ -41,8 +41,15 @@
 
 $("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "160px" });
 
+
+
+// Get 'username'
+
+//
+
 var a = audiojs.createAll({
   trackEnded: function() {
+  store.set('state', 'play');
     if($(".next").length > 0){
       $(".next")[0].click();
     }
@@ -51,10 +58,16 @@ var a = audiojs.createAll({
 var audio = a[0];
 
 $('#playbtn, .intro').click(function(e) {
+  store.set('state', 'off');
   $('#playbtn').toggleClass("ispaused isplaying");
   e.preventDefault();
   audio.playPause();
 });
+
+var playerState = store.get('state');
+if(playerState == "play"){
+  $("#playbtn").trigger('click');
+}
 
 $(document).keydown(function(e) {
   var unicode = e.charCode ? e.charCode : e.keyCode;
