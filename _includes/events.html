@@ -1,1 +1,1 @@
-<ul class="events">{% for post in site.categories.event %}<li{% if site.time > post.date %} class="beentheredonethat" {% endif %}><a href="#">{{ post.title }}<br /><time datetime="{{ post.date | date: "%m-%d-%Y"}}">{{ post.date | date: "%d.%m.%Y" }}</time></a></li>{% endfor %}</ul>
+<ul class="events">{% for post in site.categories.event %}<li{% if site.time > post.date %} class="beentheredonethat" {% endif %}><a href="#">{{ post.title }}<br /><time datetime="{{ post.date | date: "%m-%d-%Y"}}">{{ post.date | date: "%m/%y" }}</time></a></li>{% endfor %}</ul>

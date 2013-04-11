@@ -1,0 +1,3 @@
+#! /bin/bash
+
+convert img/_in/* -resize 1600x800^ +level-colors midnightblue,whitesmoke -channel blue -quality 80% -set filename:fname 'img/out/%t' +adjoin '%[filename:fname].jpg'
