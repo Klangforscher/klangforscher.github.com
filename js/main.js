@@ -39,7 +39,7 @@
 
 })( jQuery );
 
-$("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "260px" });
+$("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "360px" });
 
 
 if($(".next").length>0){

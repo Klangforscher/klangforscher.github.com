@@ -3,5 +3,5 @@ layout: audio
 title: 'Daydreamer'
 file: '2013-02-10-daydreamer.mp3'
 background: '59f140284dc34699b6912a329c00060fecbc966f'
-color: '#19089B'
+color: '#E2E4B9'
 ---

@@ -3,5 +3,5 @@ layout: audio
 title: 'Sid Commodore'
 file: '2012-03-24-sid-commodore.mp3'
 background: 'b7659857441dd405cfb4e32df17b7dcecd8f431a'
-color: '#F3E3DE'
+color: '#92C6EE'
 ---
