@@ -18,20 +18,25 @@ time
     padding: 50px 10px 20px
     font-size: 14px
     font-family: "Simplon_BP_Mono_Regular"
-    
   li
     padding: 4px
-
 i
   font-size: 37px
   padding: 10px
-  +transition-property(color)
-  +transition-duration(0.5s)
+  +transition-property(color,padding,font-size)
+  +transition-duration(1s)
   &:hover
     color: #000
+  @media only screen and (max-width: 500px)
+    padding: 4px
+    font-size: 24px
+
 #lastupdate
+  display: block
   width: 100%
   padding: 50px 0px
+  @media only screen and (max-width: 500px)
+    padding: 10px 0px
   text-align: center
   line-height: 1.5
   text-transform: uppercase
@@ -72,6 +77,10 @@ p
 header
   text-align: center
   padding: 100px 0
+  +transition-property(padding)
+  +transition-duration(1s)
+  @media only screen and (max-width: 500px)
+    padding: 30px 0px
   h1
     font-weight: 800
     font-size: 20px
@@ -125,18 +134,29 @@ ul, li
   min-height: 200px
   max-width: 700px
   margin: 0 auto
-.listwrap
-  .tracks, .events
-    width: 50%
-    margin: 0px
-    padding: 0px
-    float: left
+
+.leftside, .rightside
+  width: 50%
+  float: left
+  margin: 0px
+  padding: 0px
+  @media only screen and (max-width: 767px)
+    width: 100%
+    clear: both
+
+nav
+  h3
+    text-align: center
+    padding: 50px 0px
+    font-size: 24px
+    text-transform: uppercase
   li
     font-size: 24px
     padding-top: 10px
     padding-bottom: 10px
   p
     padding: 10px
+
 body
   font-family: "Simplon_BP_Regular"
   margin: 0 auto
@@ -155,6 +175,10 @@ body
   display: none
 .intro
   padding: 0px 0px 50px
+  +transition-property(padding)
+  +transition-duration(1.5s)
+  @media only screen and (max-width: 500px)
+    padding: 0px 0px
   margin: 0px 0px
   text-align: center
   cursor: pointer
@@ -178,6 +202,8 @@ footer
   text-align: center
   width: 100%
   padding: 100px 0px
+  @media only screen and (max-width: 500px)
+    padding: 30px 0px
   margin: 0
   ul
     width: auto
@@ -185,6 +211,8 @@ footer
   li
     float: left
     margin-bottom: 10px
+    @media only screen and (max-width: 600px)
+      width: 100%
   a
     text-transform: uppercase
     font-size: 18px

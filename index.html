@@ -5,17 +5,4 @@ background: 'bbc9278a20a18260ebf45c63a838f570f505e0b6'
 color: '#FF5F41'
 ---
 <div class="intro"><h1 id="fittext">{{ site.categories.event.first.date | date: "%d.%m.%Y"}}<br />{{ site.categories.event.first.title }}</h1></div>
-<div class="listwrap">
-  {% include tracks.html %}
-  {% include events.html %}
-</div>
-<div class="downloadwrap">
-<div class="download">
-  <a href="/mp3/klangforscher.zip">Download<br />Everything<br />
-<span id="duration">03:41:52</span>
-    <br />
-<span id="filesize">201 MB</span>
-  </a>
-</div>
-</div>
-<h3 id="lastupdate">last edit<br />{{ site.time | date: "%d.%m.%Y %H:%M:%S"}}</h3>
+

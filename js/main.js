@@ -1,3 +1,12 @@
+---
+layout: nil
+---
+
+var txt=$("#lastupdatetimestamp").text();
+$("#lastupdatetimestamp").html(moment(txt, "DD.MM.YYYY HH:mm:ss").fromNow());
+
+var urls=[{% for post in site.categories.audio %}"{{ post.url }}",{% endfor %}""];
+
 /*global jQuery */
 /*!	
  * FitText.js 1.1
@@ -77,11 +86,12 @@ $('#playbtn, .intro').click(function(e) {
   e.preventDefault();
 });
 
+if($(".audiojs").length>0){
 var playerState = store.get('state');
 if(playerState == "play"){
   playit();
 }
-
+}
 
 
 

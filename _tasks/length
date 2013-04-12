@@ -12,7 +12,7 @@
     min=$(($minutes - $hours * 60))
     sec=$(($seconds - $hours * 60 * 60 - $min * 60 ))
     time=`printf "%02d" $hours`:"$min":"$sec"
-    filesize=$(du -sh download/klangforscher.zip | cut -f1 -d"M")
-    sed -i '' "s/.*<span id=\"duration\">\(.*\)<\/span>.*/<span id=\"duration\">${time}<\/span>/g" index.html
-    sed -i '' "s/.*<span id=\"filesize\">\(.*\)<\/span>.*/<span id=\"filesize\">${filesize} MB<\/span>/g" index.html
+    filesize=$(du -sh mp3/klangforscher.zip | cut -f1 -d"M")
+    sed -i '' "s/.*<span id=\"duration\">\(.*\)<\/span>.*/<span id=\"duration\">${time}<\/span>/g" _includes/download.html
+    sed -i '' "s/.*<span id=\"filesize\">\(.*\)<\/span>.*/<span id=\"filesize\">${filesize} MB<\/span>/g" _includes/download.html
     }
