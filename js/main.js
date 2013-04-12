@@ -2,6 +2,41 @@
 layout: nil
 ---
 
+(function( $ ){
+	
+  $.fn.fitText = function( kompressor, options ) {
+	   
+    // Setup options
+    var compressor = kompressor || 1,
+        settings = $.extend({
+          'minFontSize' : Number.NEGATIVE_INFINITY,
+          'maxFontSize' : Number.POSITIVE_INFINITY
+        }, options);
+	
+    return this.each(function(){
+
+      // Store the object
+      var $this = $(this); 
+        
+      // Resizer() resizes items based on the object width divided by the compressor * 10
+      var resizer = function () {
+        $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
+      };
+
+      // Call once to set.
+      resizer();
+				
+      // Call on resize. Opera debounces their resize by default. 
+      $(window).on('resize', resizer);
+      	
+    });
+
+  };
+
+})( jQuery );
+
+(function(e,t){"use strict";var n=typeof Element!="undefined"&&"ALLOW_KEYBOARD_INPUT"in Element,r=function(){var e,n,r=[["requestFullscreen","exitFullscreen","fullscreenElement","fullscreenEnabled","fullscreenchange","fullscreenerror"],["webkitRequestFullscreen","webkitExitFullscreen","webkitFullscreenElement","webkitFullscreenEnabled","webkitfullscreenchange","webkitfullscreenerror"],["webkitRequestFullScreen","webkitCancelFullScreen","webkitCurrentFullScreenElement","","webkitfullscreenchange","webkitfullscreenerror"],["mozRequestFullScreen","mozCancelFullScreen","mozFullScreenElement","mozFullScreenEnabled","mozfullscreenchange","mozfullscreenerror"]],i=0,s=r.length,o={};for(;i<s;i++){e=r[i];if(e&&e[1]in t){for(i=0,n=e.length;i<n;i++)o[r[0][i]]=e[i];return o}}return!1}(),i={request:function(e){var i=r.requestFullscreen;e=e||t.documentElement,/5\.1[\.\d]* Safari/.test(navigator.userAgent)?e[i]():e[i](n&&Element.ALLOW_KEYBOARD_INPUT)},exit:function(){t[r.exitFullscreen]()},toggle:function(e){this.isFullscreen?this.exit():this.request(e)},onchange:function(){},onerror:function(){}};if(!r)return e.screenfull=!1;Object.defineProperties(i,{isFullscreen:{get:function(){return!!t[r.fullscreenElement]}},element:{enumerable:!0,get:function(){return t[r.fullscreenElement]}},enabled:{enumerable:!0,get:function(){return t[r.fullscreenEnabled]}}}),t.addEventListener(r.fullscreenchange,function(e){i.onchange.call(i,e)}),t.addEventListener(r.fullscreenerror,function(e){i.onerror.call(i,e)}),e.screenfull=i})(window,document);
+
 var txt=$("#lastupdatetimestamp").text();
 $("#lastupdatetimestamp").html(moment(txt, "DD.MM.YYYY HH:mm:ss").fromNow());
 
