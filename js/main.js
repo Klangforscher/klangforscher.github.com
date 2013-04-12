@@ -86,5 +86,9 @@ $(document).keydown(function(e) {
     audio.playPause();
     e.preventDefault();
     $('#playbtn').toggleClass("ispaused isplaying");
+  } else if (unicode == 70) {
+    if (screenfull.enabled) {
+          screenfull.request();
+    }
   }
 });
