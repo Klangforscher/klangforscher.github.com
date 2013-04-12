@@ -3,6 +3,6 @@ layout: audio
 title: 'drowning'
 tags: 'testtag othertag'
 file: '2005-05-02-drowning.mp3'
-background: 'P1030335.jpg'
+background: 'b1a73c13d331180a021574aa3c874cad45c7ef75'
 color: '#FFF'
 ---

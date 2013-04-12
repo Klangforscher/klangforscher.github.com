@@ -2,6 +2,6 @@
 layout: audio
 title: 'SHSUNSYN'
 file: '2012-09-21-shsunsyn.mp3'
-background: 'DSC00101.jpg'
+background: '1dd295c9077df8d564f2442c32537f90b6ff12c0'
 color: 'white'
 ---

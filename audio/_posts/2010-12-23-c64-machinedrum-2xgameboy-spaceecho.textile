@@ -2,6 +2,6 @@
 layout: audio
 title: 'Machinedrum 2xGameboy Space Echo'
 file: '2010-12-23-c64-machinedrum-2xgameboy-spaceecho.mp3'
-background: '4793353914_f629b2774e_o.jpg'
+background: '08db85e421d94819c7c5ff10a1af694ef9640ed2'
 color: '#FFF'
 ---

@@ -39,13 +39,16 @@
 
 })( jQuery );
 
-$("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "160px" });
+$("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "260px" });
 
 
-
-// Get 'username'
-
-//
+if($(".next").length>0){
+ urls.pop();
+$("#shuffle").click(function(){
+ var index=Math.floor(Math.random()*urls.length)
+window.open (urls[index],'_self',false);
+});
+}
 
 var a = audiojs.createAll({
   trackEnded: function() {

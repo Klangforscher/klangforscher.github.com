@@ -3,6 +3,6 @@ layout: audio
 title: 'elektromotor'
 file: '2007-06-06-elektromotor.mp3'
 tags: 'testtag'
-background: '8126215885_99b777f65f_o.jpg'
+background: '35c711127cb752a8d57f888d5174b8620ee3ad4f'
 color: '#00FFFF'
 ---

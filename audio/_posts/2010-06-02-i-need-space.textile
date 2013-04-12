@@ -2,6 +2,6 @@
 layout: audio
 title: 'I need Space'
 file: '2010-06-02-i-need-space.mp3'
-background: '3972045448_b2e8dd5cf8_o.jpg'
+background: 'fb4d89028f331065db10bd5b0df76bae7e5c0113'
 color: '#C6B1C7'
 ---

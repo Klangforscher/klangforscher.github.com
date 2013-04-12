@@ -2,6 +2,6 @@
 layout: audio
 title: 'Comander 64'
 file: '2010-04-15-comander-64.mp3'
-background: 'ISS028-E-034749_lrg.jpg'
+background: '62dbb49b3308f8ee3fd3d1d3b7f83f1ffb14111e'
 color: '#FFF'
 ---

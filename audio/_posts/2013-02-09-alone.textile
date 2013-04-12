@@ -2,6 +2,6 @@
 layout: audio
 title: 'Alone'
 file: '2013-02-09-alone.mp3'
-background: '3972080296_31bce23637_o.jpg'
+background: 'ce4e06b681a97eeb376e0f6dfdefd2cedab60f09'
 color: '#FF67AA'
 ---

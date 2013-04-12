@@ -2,6 +2,6 @@
 layout: audio
 title: 'Police'
 file: '2009-11-05-police.mp3'
-background: '7142834345_72234c6b12_o.jpg'
+background: '9a21f1d86c711b9a5700fdfbd9ffd9e72fa2830f'
 color: '#007AFF'
 ---

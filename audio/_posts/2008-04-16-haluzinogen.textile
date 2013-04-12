@@ -2,6 +2,6 @@
 layout: audio
 title: 'Haluzinogen'
 file: '2008-04-16-haluzinogen.mp3'
-background: '4749709937_1758c04639_o.jpg'
+background: 'cb30f9644c8b6f84bef8c484052e0074151460e1'
 color: '#FFF'
 ---

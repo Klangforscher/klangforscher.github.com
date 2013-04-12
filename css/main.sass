@@ -1,16 +1,20 @@
 @import compass/css3
 @import compass/reset
 
-$font_path: "/fonts/simplon" !default
-+font-face("Simplon_BP_Regular", font-files("/fonts/simplon/woff/Simplon_BP_Regular_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Regular_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
-+font-face("Simplon_BP_Medium", font-files("/fonts/simplon/woff/Simplon_BP_Medium_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Medium_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Medium_1.otf", opentype), "#{$font_path}.eot", normal, bold)
-+font-face("Simplon_BP_Regular_Italic", font-files("/fonts/simplon/woff/Simplon_BP_Regular_Italic_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Regular_Italic_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Regular_Italic_1.otf", opentype), "#{$font_path}.eot", normal, bold)
-+font-face("Simplon_BP_Mono_Regular", font-files("/fonts/simplon/woff/Simplon_BP_Mono_Regular_1.woff", woff, "/fonts/simplon/ttf/Simplon_BP_Mono_Regular_1.ttf", truetype, "/fonts/simplon/otf/Simplon_BP_Mono_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
+$font_path: "/font/simplon" !default
++font-face("Simplon_BP_Regular", font-files("/font/simplon/woff/Simplon_BP_Regular_1.woff", woff, "/font/simplon/ttf/Simplon_BP_Regular_1.ttf", truetype, "/font/simplon/otf/Simplon_BP_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
++font-face("Simplon_BP_Medium", font-files("/font/simplon/woff/Simplon_BP_Medium_1.woff", woff, "/font/simplon/ttf/Simplon_BP_Medium_1.ttf", truetype, "/font/simplon/otf/Simplon_BP_Medium_1.otf", opentype), "#{$font_path}.eot", normal, bold)
++font-face("Simplon_BP_Regular_Italic", font-files("/font/simplon/woff/Simplon_BP_Regular_Italic_1.woff", woff, "/font/simplon/ttf/Simplon_BP_Regular_Italic_1.ttf", truetype, "/font/simplon/otf/Simplon_BP_Regular_Italic_1.otf", opentype), "#{$font_path}.eot", normal, bold)
++font-face("Simplon_BP_Mono_Regular", font-files("/font/simplon/woff/Simplon_BP_Mono_Regular_1.woff", woff, "/font/simplon/ttf/Simplon_BP_Mono_Regular_1.ttf", truetype, "/font/simplon/otf/Simplon_BP_Mono_Regular_1.otf", opentype), "#{$font_path}.eot", normal, bold)
 time
   font-size: 14px
   font-family: "Simplon_BP_Mono_Regular"
   color: #333
 
+
+
+i
+  font-size: 30px
 #lastupdate
   width: 100%
   padding: 50px 0px
@@ -20,10 +24,6 @@ time
   font-size: 12px
   letter-spacing: 2px
 
-.ispaused:before
-  content: "play"
-.isplaying:before
-  content: "pause"
 .downloadwrap
   text-align: center
   width: 100%

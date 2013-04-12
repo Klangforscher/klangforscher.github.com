@@ -2,6 +2,6 @@
 layout: audio
 title: 'Monosherman'
 file: '2007-08-19-monosherman.mp3'
-background: '4309061571_4daf359b45_o.jpg'
+background: '970c5df14646752f878758ce55a665254a91f8cd'
 color: '#FF67AA'
 ---

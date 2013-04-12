@@ -1,22 +1,20 @@
 ---
 layout: default
 ---
+<script> var urls=[{% for post in site.categories.audio %}"{{ post.url }}",{% endfor %}""]; </script>
 <div class="intro"><h1 id="fittext">{{ page.title }}</h1></div>
   <!--<p class="datum">{{ page.date | date: "%d.%m.%Y"}}</p>-->
 <div class="ui">
   <ul class="actions">
     {% include prevnext.html %}
-    <li><a rel="next" class="next" href="{{ next_post }}">&larr; REW</a></li>
-    <li><a id="playbtn" class="ispaused" href="#"></a></li>
-    <li><a rel="prev" class="prev" href="{{ prev_post }}">FWD &rarr;</a></li>
+    <li><a rel="next" class="next" href="{{ next_post }}"><i class="icon-backward"></i></a></li>
+    <li><a id="shuffle" href="#"><i class="icon-random"></i></a></li>
+    <li><a href="/mp3/{{ page.file }}"><i class="icon-download-alt"></i></a></li>
+    <li><a id="playbtn" class="ispaused" href="#"><i class="icon-play"></i></a></li>
+    <li><a rel="prev" class="prev" href="{{ prev_post }}"><i class="icon-forward"></i></a></li>
   </ul>
 </div>
-<div class="ui">
-  <ul class="second">
-    <li><a href="/mp3/{{ page.file }}">download</a></li>
-    <li><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fklangforscher.ch{{ page.url }}">Tweet</a></li>
-  </ul>
-</div>
+    <!--<li><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fklangforscher.ch{{ page.url }}">Tweet</a></li>-->
 <div class="content">
 {% include related.html %}
   {{ content }}</div>

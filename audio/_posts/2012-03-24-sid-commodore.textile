@@ -2,6 +2,6 @@
 layout: audio
 title: 'Sid Commodore'
 file: '2012-03-24-sid-commodore.mp3'
-background: 'qadisiyah_tm5_2009258_lrg.jpg'
+background: 'b7659857441dd405cfb4e32df17b7dcecd8f431a'
 color: '#F3E3DE'
 ---

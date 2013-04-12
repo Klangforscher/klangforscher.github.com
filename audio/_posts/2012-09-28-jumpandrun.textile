@@ -2,6 +2,6 @@
 layout: audio
 title: 'JumpAndRun'
 file: '2012-09-28-jumpandrun.mp3'
-background: 'alaska_tmo_2012134_lrg.jpg'
+background: 'f0dc4750230b02c774c0edb4f55fbf761f1e85a1'
 color: '#FFF'
 ---

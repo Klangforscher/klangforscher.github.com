@@ -1,4 +1,24 @@
 #! /bin/bash
-date
-convert -verbose img/_in/* -resize 1600x800^ +level-colors midnightblue,whitesmoke -channel blue -quality 80% -set filename:fname 'img/out/%t' +adjoin '%[filename:fname].jpg'
-date
+
+if [ -d img/out ]; then
+  rm -rf img/out
+  mkdir img/out
+fi
+
+find img/_in -type f -iname "*.jpg" -print0 | while read -d $'\0' file
+do
+  base=${file##*/}
+  noext=${base%.*}
+  newfile=$(printf '%s' "$noext" | openssl sha1 )
+  newdir=img/out/"$newfile"
+  mkdir -p $newdir
+  # large image
+  largeImage="$newdir"/large.jpg
+  convert -verbose "$file" -resize 1600x800^ +level-colors midnightblue,whitesmoke -channel blue -quality 80% "$largeImage"
+  # medium image
+  mediumImage="$newdir"/medium.jpg
+  convert -verbose "$file" -resize 1000x600^ +level-colors midnightblue,whitesmoke -channel blue -quality 80% "$mediumImage"
+  # small image
+  smallImage="$newdir"/small.jpg
+  convert -verbose "$file" -resize 600x400^ +level-colors midnightblue,whitesmoke -channel blue -quality 80% "$smallImage"
+done
