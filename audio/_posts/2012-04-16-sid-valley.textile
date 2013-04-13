@@ -5,3 +5,20 @@ file: '2012-04-16-sid-valley.mp3'
 background: 'bb83d9955d03c447cda82f353e1a8b1f3e7d55c3'
 color: '#FFF'
 ---
+
+<notextile>
+<style>
+.char6 {
+margin-left: -0.09em;
+}
+.char3 {
+margin-left: -0.011em;
+}
+
+.char10 {
+margin-left: -0.006em;
+}
+
+
+</style>
+</notextile>

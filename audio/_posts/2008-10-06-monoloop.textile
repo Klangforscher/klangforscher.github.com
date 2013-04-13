@@ -5,3 +5,37 @@ file: '2008-10-06-monoloop.mp3'
 background: 'ce0efb3585fe7450fa1602d9daa10896d57af537'
 color: '#FFF'
 ---
+
+<notextile>
+<style>
+
+.char7 {
+margin-left: -0.114em;
+}
+
+.char2 {
+margin-left: -0.114em;
+}
+
+.char3 {
+margin-left: -0.119em;
+}
+
+.char4 {
+margin-left: -0.119em;
+}
+
+.char5 {
+margin-left: -0.124em;
+}
+
+.char6 {
+margin-left: -0.105em;
+}
+
+.char8 {
+margin-left: -0.129em;
+}
+
+</style>
+</notextile>

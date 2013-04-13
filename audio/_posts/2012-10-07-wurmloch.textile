@@ -6,3 +6,20 @@ background: '83c13bf77fe3e49634779320f45882e377267228'
 color: '#FDDFB2'
 ---
 
+<notextile>
+<style>
+
+.char2 {
+margin-left: -0.019em;
+}
+
+.char6 {
+margin-left: -0.019em;
+}
+
+.char8 {
+margin-left: -0.004em;
+}
+
+</style>
+</notextile>

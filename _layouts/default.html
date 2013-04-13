@@ -11,8 +11,9 @@ body{background-image: url(/img/out/{{ page.background }}/large.jpg); color:{{ p
 a{color:{{ page.color }}!important;}
 a:hover{color:{{ page.color }}!important;}
 </style>
-{% if page.previous %}<link rel="prefetch" href="/img/out/{{ page.previous.background }}" /><link rel="prerender" href="/img/out/{{ page.previous.background }}" />{% endif %}
-{% if page.next %}<link rel="prefetch" href="/img/out/{{ page.next.background }}" /><link rel="prerender" href="/img/out/{{ page.next.background }}" />{% endif %}
+{% include prevnext.html %}
+{% if prev_post.background %}<link rel="prefetch" href="/img/out/{{ prev_post.background }}/large.jpg" /><link rel="prerender" href="/img/out/{{ prev_post.background }}/large.jpg" />{% endif %}
+{% if next_post.background %}<link rel="prefetch" href="/img/out/{{ next_post.background }}/large.jpg" /><link rel="prerender" href="/img/out/{{ next_post.background }}/large.jpg" />{% endif %}
 </head>
 <body>
 {% include header.html %}
@@ -23,7 +24,9 @@ a:hover{color:{{ page.color }}!important;}
 <script src="/js/vendor/store+json2.min.js"></script>
 <script src="/js/audiojs/audio.min.js"></script>
 <script src="/js/vendor/jquery.min.js"></script>
+<script src="/js/vendor/jquery.lettering-0.6.1.min.js"></script>
 <script src="/js/vendor/moment.min.js"></script>
+<!--<script src="/js/vendor/kern.js "></script>-->
 <script src="/js/main.js"></script>
 </body>
 </html>

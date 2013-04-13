@@ -6,3 +6,14 @@ tags: 'testtag'
 background: '35c711127cb752a8d57f888d5174b8620ee3ad4f'
 color: '#00FFFF'
 ---
+
+<notextile>
+<style>
+.char3 {
+margin-left: -0.011em;
+}
+.char7 {
+margin-left: -0.011em;
+}
+</style>
+</notextile>

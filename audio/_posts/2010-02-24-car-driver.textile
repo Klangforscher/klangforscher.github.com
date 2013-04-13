@@ -5,3 +5,29 @@ file: '2010-02-24-car-driver.mp3'
 background: '86ee207b721caa2ec8f1f53feebba7728bece708'
 color: '#090950'
 ---
+
+
+<notextile>
+<style>
+
+.char1 {
+margin-left: 0.008em;
+}
+
+.char2 {
+margin-left: -0.019em;
+}
+
+.char6 {
+margin-left: -0.015em;
+}
+
+.char9 {
+margin-left: -0.015em;
+}
+
+.char10 {
+margin-left: -0.004em;
+}
+</style>
+</notextile>

@@ -6,3 +6,30 @@ file: '2005-05-02-drowning.mp3'
 background: 'b1a73c13d331180a021574aa3c874cad45c7ef75'
 color: '#FFF'
 ---
+
+
+<notextile>
+<style>
+.char3 {
+margin-left: -0.019em;
+}
+
+.char4 {
+margin-left: -0.005em;
+}
+
+.char6 {
+margin-left: -0.01em;
+}
+
+.char7 {
+margin-left: -0.019em;
+}
+
+.char8 {
+margin-left: -0.01em;
+}
+
+
+</style>
+</notextile>

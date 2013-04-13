@@ -5,3 +5,24 @@ file: '2012-09-21-shsunsyn.mp3'
 background: '1dd295c9077df8d564f2442c32537f90b6ff12c0'
 color: 'white'
 ---
+
+<notextile>
+<style>
+.char7 {
+margin-left: -0.056em;
+}
+
+.char8 {
+margin-left: -0.019em;
+}
+
+.char3 {
+margin-left: -0.008em;
+}
+
+ .char6 {
+margin-left: -0.008em;
+}
+
+</style>
+</notextile>

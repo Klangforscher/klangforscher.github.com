@@ -75,8 +75,11 @@ return this.each(function(){
 
 })( jQuery );
 
-$("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "200px" });
+$("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "300px" });
 
+ $(document).ready(function() {
+       $("#fittext").lettering();
+         });
 
 /* AUDIO */
 
@@ -113,12 +116,14 @@ function pauseit(){
 }
 
 $('#playbtn, .intro').click(function(e) {
+  if($(".kernjs_panel").length==0){
   if($("#playbtn").hasClass("playing")){
     pauseit();
   }else{
     playit();
   }
   e.preventDefault();
+  }
 });
 
 if($(".audiojs").length>0){

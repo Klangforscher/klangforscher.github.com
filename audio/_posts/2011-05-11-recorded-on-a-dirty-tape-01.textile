@@ -5,3 +5,39 @@ file: '2011-05-11-recorded-on-a-dirty-tape-01.mp3'
 background: 'c06d062b9be1f641ecb7f28d20bedf34b55fbedb'
 color: '#333'
 ---
+<notextile>
+<style>
+.char6 {
+margin-left: -0.023em;
+}
+
+.char17 {
+margin-left: -0.026em;
+}
+
+.char18 {
+margin-left: 0.026em;
+}
+
+.char19 {
+margin-left: 0.004em;
+}
+
+.char2 {
+margin-left: -0.011em;
+}
+
+.char7 {
+margin-left: -0.008em;
+}
+
+.char11 {
+margin-left: -0.008em;
+}
+
+.char16 {
+margin-left: -0.008em;
+}
+
+</style>
+</notextile>

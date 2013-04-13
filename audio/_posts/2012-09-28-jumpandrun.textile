@@ -5,3 +5,33 @@ file: '2012-09-28-jumpandrun.mp3'
 background: 'f0dc4750230b02c774c0edb4f55fbf761f1e85a1'
 color: '#FFF'
 ---
+<notextile>
+<style>
+
+.char9 {
+vertical-align: top;
+margin-left: -0.023em;
+}
+
+.char5 {
+vertical-align: top;
+margin-left: -0.056em;
+}
+
+ .char7 {
+vertical-align: top;
+margin-left: -0.017em;
+}
+
+.char10 {
+vertical-align: top;
+margin-left: -0.017em;
+}
+
+ .char2 {
+vertical-align: top;
+margin-left: -0.017em;
+}
+
+</style>
+</notextile>
