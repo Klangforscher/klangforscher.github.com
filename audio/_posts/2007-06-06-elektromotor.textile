@@ -1,6 +1,7 @@
 ---
 layout: audio
 title: 'elektromotor'
+description: 'test one two three'
 file: '2007-06-06-elektromotor.mp3'
 tags: 'testtag'
 background: '35c711127cb752a8d57f888d5174b8620ee3ad4f'
