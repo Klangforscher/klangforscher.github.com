@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="intro"><h1 id="fittext">{{ page.title }}</h1></div>
+<div class="intro"><h1 id="fittext" class="tracktitle">{{ page.title }}</h1></div>
   <!--<p class="datum">{{ page.date | date: "%d.%m.%Y"}}</p>-->
 <div class="ui">
   <ul class="actions">
@@ -16,5 +16,5 @@ layout: default
 <div class="content">
 {% include related.html %}
   {{ content }}</div>
-{% if page.file %}<audio src="/mp3/{{ page.file }}" preload="auto"></audio>{% endif %}
+{% if page.file %}<audio src="/mp3/{{ page.file }}" preload="none"></audio>{% endif %}
 

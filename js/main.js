@@ -78,7 +78,7 @@ return this.each(function(){
 $("#fittext").fitText(0.6, { minFontSize: "30px", maxFontSize: "300px" });
 
  $(document).ready(function() {
-       $("#fittext").lettering();
+       $(".tracktitle").lettering();
          });
 
 /* AUDIO */
