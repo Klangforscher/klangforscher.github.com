@@ -6,11 +6,7 @@
 <title>Klangforscher{% if page.title %} | {{page.title}}{% endif %}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Klangforscher{% endif %}">
 <link rel="stylesheet" href="/css/main.css" />
-<style>
-body{ color:{{ page.color }}!important;}
-a{color:{{ page.color }}!important;}
-a:hover{color:{{ page.color }}!important;}
-</style>
+<style> body{ color:{{ page.color }}!important;} a{color:{{ page.color }}!important;} a:hover{color:{{ page.color }}!important;} </style>
 {% include prevnext.html %}
 {% if prev_post.background %}<link rel="prefetch" href="/img/out/{{ prev_post.background }}/large.jpg" /><link rel="prerender" href="/img/out/{{ prev_post.background }}/large.jpg" />{% endif %}
 {% if next_post.background %}<link rel="prefetch" href="/img/out/{{ next_post.background }}/large.jpg" /><link rel="prerender" href="/img/out/{{ next_post.background }}/large.jpg" />{% endif %}
@@ -21,10 +17,8 @@ a:hover{color:{{ page.color }}!important;}
 {% include nav.html %}
 {% include download.html %}
 {% include footer.html %}
-<script src="/js/vendor/store+json2.min.js"></script>
 <script src="/js/audiojs/audio.min.js"></script>
 <script src="/js/vendor/jquery.min.js"></script>
-<script src="/js/vendor/jquery.lettering-0.6.1.min.js"></script>
 <script src="/js/vendor/moment.min.js"></script>
 <script src="/js/main.js"></script>
 <script> $.backstretch("/img/out/{{ page.background }}/large.jpg"); </script>

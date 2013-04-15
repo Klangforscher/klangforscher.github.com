@@ -5,19 +5,3 @@ file: '2007-05-22-kunststoff.mp3'
 background: '0922dc9128ed9d8f02f3774c9ef2e21c1e84f05d'
 color: '#FF67AA'
 ---
-<notextile>
-<style>.char2{vertical-align:top;margin-left:-0.062em;}
-.char1 {
-vertical-align: top;
-display: inline-block;
-position: relative;
--webkit-transform: rotate(-181deg);
--moz-transform: rotate(-181deg);
--ms-transform: rotate(-181deg);
--o-transform: rotate(-181deg);
-transform: rotate(-181deg);
-}
-
-</style>
-</notextile>
-

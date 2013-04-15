@@ -3,6 +3,74 @@ layout: nil
 ---
 
 
+(function($){function injector(t,splitter,klass,after){var a=t.text().split(splitter),inject='';if(a.length){$(a).each(function(i,item){inject+='<span class="'+klass+(i+1)+'">'+item+'</span>'+after});t.empty().append(inject)}}var methods={init:function(){return this.each(function(){injector($(this),'','char','')})},words:function(){return this.each(function(){injector($(this),' ','word',' ')})},lines:function(){return this.each(function(){var r="eefec303079ad17405c889e092e105b0";injector($(this).children("br").replaceWith(r).end(),r,'line','')})}};$.fn.lettering=function(method){if(method&&methods[method]){return methods[method].apply(this,[].slice.call(arguments,1))}else if(method==='letters'||!method){return methods.init.apply(this,[].slice.call(arguments,0))}$.error('Method '+method+' does not exist on jQuery.lettering');return this}})(jQuery);
+
+
+var store = (function () {
+    var api               = {},
+        win               = window,
+        doc               = win.document,
+        localStorageName  = 'localStorage',
+        globalStorageName = 'globalStorage',
+        storage;
+
+    api.set    = function (key, value) {};
+    api.get    = function (key)        {};
+    api.remove = function (key)        {};
+    api.clear  = function ()           {};
+
+    if (localStorageName in win && win[localStorageName]) {
+        storage    = win[localStorageName];
+        api.set    = function (key, val) { storage.setItem(key, val) };
+        api.get    = function (key)      { return storage.getItem(key) };
+        api.remove = function (key)      { storage.removeItem(key) };
+        api.clear  = function ()         { storage.clear() };
+
+    } else if (globalStorageName in win && win[globalStorageName]) {
+        storage    = win[globalStorageName][win.location.hostname];
+        api.set    = function (key, val) { storage[key] = val };
+        api.get    = function (key)      { return storage[key] && storage[key].value };
+        api.remove = function (key)      { delete storage[key] };
+        api.clear  = function ()         { for (var key in storage ) { delete storage[key] } };
+
+    } else if (doc.documentElement.addBehavior) {
+        function getStorage() {
+            if (storage) { return storage }
+            storage = doc.body.appendChild(doc.createElement('div'));
+            storage.style.display = 'none';
+            // See http://msdn.microsoft.com/en-us/library/ms531081(v=VS.85).aspx
+            // and http://msdn.microsoft.com/en-us/library/ms531424(v=VS.85).aspx
+            storage.addBehavior('#default#userData');
+            storage.load(localStorageName);
+            return storage;
+        }
+        api.set = function (key, val) {
+            var storage = getStorage();
+            storage.setAttribute(key, val);
+            storage.save(localStorageName);
+        };
+        api.get = function (key) {
+            var storage = getStorage();
+            return storage.getAttribute(key);
+        };
+        api.remove = function (key) {
+            var storage = getStorage();
+            storage.removeAttribute(key);
+            storage.save(localStorageName);
+        }
+        api.clear = function () {
+            var storage = getStorage();
+            var attributes = storage.XMLDocument.documentElement.attributes;;
+            storage.load(localStorageName);
+            for (var i=0, attr; attr = attributes[i]; i++) {
+                storage.removeAttribute(attr.name);
+            }
+            storage.save(localStorageName);
+        }
+    }
+    return api;
+})();
+
 //$(function(){
  //     $('picture').picture();
 //});
@@ -176,3 +244,7 @@ $(document).keydown(function(e) {
     }
   }
 });
+
+
+
+
