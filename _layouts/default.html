@@ -7,7 +7,7 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Klangforscher{% endif %}">
 <link rel="stylesheet" href="/css/main.css" />
 <style>
-body{background-image: url(/img/out/{{ page.background }}/large.jpg) ; color:{{ page.color }}!important;}
+body{ color:{{ page.color }}!important;}
 a{color:{{ page.color }}!important;}
 a:hover{color:{{ page.color }}!important;}
 </style>
@@ -26,7 +26,7 @@ a:hover{color:{{ page.color }}!important;}
 <script src="/js/vendor/jquery.min.js"></script>
 <script src="/js/vendor/jquery.lettering-0.6.1.min.js"></script>
 <script src="/js/vendor/moment.min.js"></script>
-<!--<script src="/js/vendor/kern.js "></script>-->
 <script src="/js/main.js"></script>
+<script> $.backstretch("/img/out/{{ page.background }}/large.jpg"); </script>
 </body>
 </html>

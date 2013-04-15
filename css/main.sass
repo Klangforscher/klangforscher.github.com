@@ -158,17 +158,35 @@ nav
   p
     padding: 10px
 
+
+#bg
+  width: 100%
+  position: fixed
+  z-index: -3
+  left: 0
+  top: 0
+  right: 0
+  bottom: 0
+  img
+    width: 100%
+
+  //background: #000 no-repeat center center fixed
+  //background-image: url('/img/out/ce4e06b681a97eeb376e0f6dfdefd2cedab60f09/large.jpg')
+  //background-size: cover
+  overflow: hidden
+html
+  overflow-x: hidden
 body
   font-family: "Simplon_BP_Regular"
   margin: 0 auto
-  background: #000 no-repeat center center fixed
-  background-size: cover
+  overflow-x: hidden
   -webkit-touch-callout: none
   -webkit-user-select: none
   -khtml-user-select: none
   -moz-user-select: none
   -ms-user-select: none
   user-select: none
+  background: #000
   a
     text-decoration: none
 
