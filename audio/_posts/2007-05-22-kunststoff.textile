@@ -5,3 +5,12 @@ file: '2007-05-22-kunststoff.mp3'
 background: '0922dc9128ed9d8f02f3774c9ef2e21c1e84f05d'
 color: '#FF67AA'
 ---
+<notextile>
+<style>
+.char2 { margin-left: -0.048em; }
+.char9 { margin-left: -0.031em; }
+.char10 { margin-left: 0.018em; }
+.char8 { margin-left: -0.018em; }
+.char3 { margin-left: -0.009em; }
+</style>
+</notextile>
