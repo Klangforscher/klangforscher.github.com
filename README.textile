@@ -1,4 +1,4 @@
-h1. klangforscher.ch
+h1. "klangforscher.ch":http://klangforscher.ch
 
 
 h2. Layouts
@@ -13,22 +13,25 @@ h2. Posts
 h4. Audio
 
 Posts in /audio/_posts/*
-Files in mp3/*
-Metadata:
-* layout
-* title
-* tags
-* color
-* background
+Example Yaml header:
+<pre>
+layout: audio  
+title: ‘Jupiter’  
+file: ‘2009-11-15-jupiter.mp3’  
+background: ‘7bcbd254b31b551e9fd6090d13daef5707f44ada’  
+color: ‘#725279’
+</pre>
 
 
 h4. Events
 
 Posts in /event/_posts/*
-Files in: ...
-Metadata:
-* layout
-* title
+Example Yaml header:
+<pre>
+layout: audio  
+title: ‘Jupiter’  
+background: ‘7bcbd254b31b551e9fd6090d13daef5707f44ada’  
+</pre>
 
 
 h4. Images
@@ -37,6 +40,12 @@ Original images in img/in/*
 Optimized images in img/out/*
 use /tasks/filter to render all images
 
+
+h4. Templates for new tracks
+
+check "klangforscher.ch/drafts":http://klangforscher.ch/drafts/
+
+---
 
 h5. Tools
 
