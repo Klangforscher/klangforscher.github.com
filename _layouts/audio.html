@@ -5,7 +5,11 @@ layout: default
   <!--<p class="datum">{{ page.date | date: "%d.%m.%Y"}}</p>-->
 <div class="ui">
   <ul class="actions">
+    {% if page.categories | first != drafts %}
+    {% include prevnextdrafts.html %}
+    {% else %}
     {% include prevnext.html %}
+    {% endif %}
     <li><a rel="next" class="next" href="{{ next_post.url }}/"><i class="icon-backward"></i></a></li>
     <li><a id="shuffle" href="#"><i class="icon-random"></i></a></li>
     <li><a href="/mp3/{{ page.file }}"><i class="icon-download-alt"></i></a></li>

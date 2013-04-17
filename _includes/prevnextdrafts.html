@@ -1,0 +1,4 @@
+{% for post in site.categories.drafts %} {% if post.url == page.url %} {% assign post_index0 = forloop.index0 %} {% assign post_index1 = forloop.index %} {% endif %} {% endfor %}
+{% for post in site.categories.drafts %} {% if post_index0 == forloop.index %} {% assign next_post = post %} {% endif %} {% if post_index1 == forloop.index0 %} {% assign prev_post = post %} {% endif %} {% endfor %}
+{% if next_post == null %}{% assign next_post = site.categories.drafts.last %}{% endif %}
+{% if prev_post == null %}{% assign prev_post = site.categories.drafts.first %}{% endif %}
