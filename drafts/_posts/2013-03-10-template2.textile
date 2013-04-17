@@ -3,6 +3,6 @@ layout: audio
 title: 'Template'
 file: '2013-02-10-daydreamer.mp3'
 background: '93fdcc90e5488d1a035fb1e12ac88db7ba547ab7'
-color: '#E2E4B9'
+color: '#FFF'
 ---
 

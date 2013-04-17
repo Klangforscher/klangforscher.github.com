@@ -5,7 +5,7 @@ layout: default
   <!--<p class="datum">{{ page.date | date: "%d.%m.%Y"}}</p>-->
 <div class="ui">
   <ul class="actions">
-    {% if page.categories | first != drafts %}
+    {% if page.categories[0] == 'drafts' %}
     {% include prevnextdrafts.html %}
     {% else %}
     {% include prevnext.html %}
@@ -21,4 +21,5 @@ layout: default
 {% include related.html %}
   {{ content }}</div>
 {% if page.file %}<audio src="/mp3/{{ page.file }}" preload="none"></audio>{% endif %}
-
+{% include nav.html %}
+{% include download.html %}
