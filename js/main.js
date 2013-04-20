@@ -184,8 +184,8 @@ if($(".next").length>0){
 var a = audiojs.createAll({
   trackEnded: function() {
     store.set('state', 'play');
-    if($(".next").length > 0){
-      $(".next")[0].click();
+    if($(".prev").length > 0){
+      $(".prev")[0].click();
     }
   }
 });
