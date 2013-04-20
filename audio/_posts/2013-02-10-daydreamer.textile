@@ -2,6 +2,7 @@
 layout: audio
 title: 'Daydreamer'
 file: '2013-02-10-daydreamer.mp3'
+tags: 'Ambient'
 background: '59f140284dc34699b6912a329c00060fecbc966f'
 color: '#E2E4B9'
 ---
