@@ -1,0 +1,8 @@
+---
+layout: audio
+title: 'Gameboy 1'
+file: '2006-12-14-Gameboy-1.mp3'
+background: 'c19b5f881395be3434e3686538d7731630b1fd82'
+color: '#342C8B'
+---
+

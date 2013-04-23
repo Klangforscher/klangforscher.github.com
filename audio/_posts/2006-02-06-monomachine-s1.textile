@@ -1,0 +1,8 @@
+---
+layout: audio
+title: 'monoMACHINE S1'
+file: '2006-02-06-monomachine-s1.mp3'
+background: '93fdcc90e5488d1a035fb1e12ac88db7ba547ab7'
+color: '#FFF'
+---
+
