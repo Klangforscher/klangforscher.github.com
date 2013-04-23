@@ -1,7 +1,7 @@
 ---
 layout: audio
-title: 'Template'
-file: '2013-02-10-daydreamer.mp3'
+title: 'solarstriker'
+file: '2005-02-20-solarstriker.mp3'
 background: 'c9f31aa1c4348270823f16120eb1201035f4690b'
 color: '#EEB9FC'
 ---
