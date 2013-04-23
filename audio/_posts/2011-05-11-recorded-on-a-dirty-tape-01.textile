@@ -3,6 +3,7 @@ layout: audio
 title: 'recorded on a dirty tape'
 file: '2011-05-11-recorded-on-a-dirty-tape-01.mp3'
 tags: 'Commodore64'
+description: 'klangforscher's audio track.'
 background: 'c06d062b9be1f641ecb7f28d20bedf34b55fbedb'
 color: '#333'
 ---

@@ -1,8 +1,9 @@
 ---
 layout: audio
 title: 'Cave'
-tags: 'othertag'
 file: '2005-10-06-cave.mp3'
+tags: 'Monomachine'
+description: 'klangforscher's audio track.'
 background: 'ff411eeaa758127c103f9a2e9914677ea5d8b50b'
 color: '#94FFE1'
 ---

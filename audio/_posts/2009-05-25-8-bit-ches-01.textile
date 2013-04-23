@@ -1,0 +1,9 @@
+---
+layout: audio
+title: '8 bit-ches 01'
+file: '2009-05-25-8-bit-ches-01.mp3'
+description: 'klangforscher's audio track.'
+background: 'c19b5f881395be3434e3686538d7731630b1fd82'
+color: '#342C8B'
+---
+

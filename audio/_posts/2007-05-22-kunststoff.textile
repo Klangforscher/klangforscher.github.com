@@ -2,6 +2,7 @@
 layout: audio
 title: 'Kunststoff'
 file: '2007-05-22-kunststoff.mp3'
+description: 'klangforscher's audio track.'
 background: '0922dc9128ed9d8f02f3774c9ef2e21c1e84f05d'
 color: '#FF67AA'
 ---

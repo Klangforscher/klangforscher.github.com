@@ -2,6 +2,7 @@
 layout: audio
 title: 'monoloop'
 file: '2008-10-06-monoloop.mp3'
+description: 'klangforscher's audio track.'
 background: 'ce0efb3585fe7450fa1602d9daa10896d57af537'
 color: '#FFF'
 ---

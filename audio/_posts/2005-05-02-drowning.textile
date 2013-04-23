@@ -1,8 +1,8 @@
 ---
 layout: audio
 title: 'drowning'
-tags: ''
 file: '2005-05-02-drowning.mp3'
+description: 'klangforscher's audio track.'
 background: 'b1a73c13d331180a021574aa3c874cad45c7ef75'
 color: '#FFF'
 ---

@@ -2,6 +2,8 @@
 layout: audio
 title: 'Berlin Lover 1'
 file: '2006-09-28-berlin-lover-1.mp3'
+tags: 'Monomachine'
+description: 'klangforscher's audio track.'
 background: 'b9e19b90e011c6e7fe1810901a6bea803e52f04d'
 color: '#FFF'
 ---

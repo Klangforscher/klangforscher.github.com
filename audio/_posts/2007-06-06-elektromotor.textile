@@ -1,9 +1,9 @@
 ---
 layout: audio
 title: 'elektromotor'
-description: 'Monomachine-SFX6+Machinedrum-SPS1'
 file: '2007-06-06-elektromotor.mp3'
-tags: ''
+tags: 'Monomachine'
+description: 'klangforscher's audio track.'
 background: '35c711127cb752a8d57f888d5174b8620ee3ad4f'
 color: '#00FFFF'
 ---

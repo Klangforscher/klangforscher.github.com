@@ -3,6 +3,7 @@ layout: audio
 title: 'Wurmloch'
 file: '2012-10-07-wurmloch.mp3'
 tags: 'Commodore64'
+description: 'klangforscher's audio track.'
 background: '83c13bf77fe3e49634779320f45882e377267228'
 color: '#FDDFB2'
 ---

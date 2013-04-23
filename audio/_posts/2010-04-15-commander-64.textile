@@ -3,6 +3,7 @@ layout: audio
 title: 'Commander 64'
 file: '2010-04-15-commander-64.mp3'
 tags: 'Commodore64'
+description: 'klangforscher's audio track.'
 background: '62dbb49b3308f8ee3fd3d1d3b7f83f1ffb14111e'
 color: '#FFF'
 ---

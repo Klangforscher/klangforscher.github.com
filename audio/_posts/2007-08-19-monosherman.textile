@@ -2,6 +2,8 @@
 layout: audio
 title: 'Monosherman'
 file: '2007-08-19-monosherman.mp3'
+tags: 'Monomachine'
+description: 'klangforscher's audio track.'
 background: '970c5df14646752f878758ce55a665254a91f8cd'
 color: '#FF67AA'
 ---

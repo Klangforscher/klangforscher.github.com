@@ -2,6 +2,7 @@
 layout: audio
 title: 'Haluzinogen'
 file: '2008-04-16-haluzinogen.mp3'
+description: 'klangforscher's audio track.'
 background: 'cb30f9644c8b6f84bef8c484052e0074151460e1'
 color: '#FFF'
 ---

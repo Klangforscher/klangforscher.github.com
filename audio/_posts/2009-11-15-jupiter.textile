@@ -2,6 +2,7 @@
 layout: audio
 title: 'Jupiter'
 file: '2009-11-15-jupiter.mp3'
+description: 'klangforscher's audio track.'
 background: '7bcbd254b31b551e9fd6090d13daef5707f44ada'
 color: '#725279'
 ---
