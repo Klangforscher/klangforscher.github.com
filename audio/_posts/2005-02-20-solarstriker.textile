@@ -5,4 +5,12 @@ file: '2005-02-20-solarstriker.mp3'
 background: 'c9f31aa1c4348270823f16120eb1201035f4690b'
 color: '#EEB9FC'
 ---
+<notextile>
+<style>
+.char11 { margin-left: -0.043em; }
+.char10 { margin-left: -0.019em; }
+.char3 { margin-left: -0.012em; }
+.char4 { margin-left: -0.004em; }
+</style>
+</notextile>
 
