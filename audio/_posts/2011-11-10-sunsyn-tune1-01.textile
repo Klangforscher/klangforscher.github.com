@@ -2,7 +2,7 @@
 layout: audio
 title: 'SunSyn tune1 01'
 file: '2011-11-10-sunsyn-tune1-01.mp3'
-description: 'klangforscher's audio track.'
+description: "klangforscher's audio track."
 background: '68648755c6908f6ef52e100e43a60384be42ac96'
 color: '#FF67AA'
 ---

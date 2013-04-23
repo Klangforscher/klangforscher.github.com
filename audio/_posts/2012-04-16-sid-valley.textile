@@ -3,7 +3,7 @@ layout: audio
 title: 'Sid Valley'
 file: '2012-04-16-sid-valley.mp3'
 tags: 'Commodore64'
-description: 'klangforscher's audio track.'
+description: "klangforscher's audio track."
 background: 'bb83d9955d03c447cda82f353e1a8b1f3e7d55c3'
 color: '#FFF'
 ---

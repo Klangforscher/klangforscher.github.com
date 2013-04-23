@@ -3,7 +3,7 @@ layout: audio
 title: 'Sid Commodore'
 file: '2012-03-24-sid-commodore.mp3'
 tags: 'Commodore64'
-description: 'klangforscher's audio track.'
+description: "klangforscher's audio track."
 background: 'b7659857441dd405cfb4e32df17b7dcecd8f431a'
 color: '#92C6EE'
 ---

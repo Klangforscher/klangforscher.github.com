@@ -2,7 +2,7 @@
 layout: audio
 title: 'SHSUNSYN'
 file: '2012-09-21-shsunsyn.mp3'
-description: 'klangforscher's audio track.'
+description: "klangforscher's audio track."
 background: '1dd295c9077df8d564f2442c32537f90b6ff12c0'
 color: 'white'
 ---

@@ -3,7 +3,7 @@ layout: audio
 title: 'Liveset Monomachine SFX 6'
 file: '2005-12-15-liveset-monomachine-sfx6.mp3'
 tags: 'Monomachine'
-description: 'klangforscher's audio track.'
+description: "klangforscher's audio track."
 background: '2d932dfe41baa49316d9a0f26c07b4a759a66698'
 color: '#E0FF00'
 ---

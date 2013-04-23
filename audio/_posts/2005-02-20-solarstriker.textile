@@ -2,7 +2,7 @@
 layout: audio
 title: 'solarstriker'
 file: '2005-02-20-solarstriker.mp3'
-description: 'klangforscher's audio track.'
+description: "klangforscher's audio track."
 background: 'c9f31aa1c4348270823f16120eb1201035f4690b'
 color: '#EEB9FC'
 ---

@@ -3,7 +3,7 @@ layout: audio
 title: 'elektromotor'
 file: '2007-06-06-elektromotor.mp3'
 tags: 'Monomachine'
-description: 'klangforscher's audio track.'
+description: "klangforscher's audio track."
 background: '35c711127cb752a8d57f888d5174b8620ee3ad4f'
 color: '#00FFFF'
 ---
