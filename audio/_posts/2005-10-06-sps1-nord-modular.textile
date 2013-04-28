@@ -1,0 +1,10 @@
+---
+layout: audio
+title: 'SPS1+Nord Modular'
+file: '2005-10-06-sps1-nord-modular.mp3'
+tags: 'Ambient'
+description: "klangforscher's audio track."
+background: 'ea41118937cf81b7a8f00ad13f644ca82a935234'
+color: '#342C8B'
+---
+
