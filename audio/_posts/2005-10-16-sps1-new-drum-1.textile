@@ -1,0 +1,10 @@
+---
+layout: audio
+title: 'New Drum 1'
+file: '2005-10-16-sps1-new-drum-1.mp3'
+tags: ''
+description: "klangforscher's audio track."
+background: 'a0e7508f157526ee077df749631324b9be5d9738'
+color: '#342C8B'
+---
+
