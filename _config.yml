@@ -1,2 +1,3 @@
 permalink: /:title
 exclude: config.rb
+timezone: Europe/Zurich
