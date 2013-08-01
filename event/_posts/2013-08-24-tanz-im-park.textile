@@ -1,4 +1,4 @@
 ---
 layout: default
-title: 'Qyps am See'
+title: 'Tanz im Park'
 ---
