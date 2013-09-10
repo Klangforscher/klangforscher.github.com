@@ -1,0 +1,4 @@
+---
+layout: default
+title: 'WAX Baracca BAR'
+---
