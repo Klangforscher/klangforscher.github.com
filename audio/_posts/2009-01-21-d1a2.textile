@@ -3,6 +3,7 @@ layout: audio
 title: 'D1A2'
 file: '2009-01-21-d1a2.mp3'
 description: "klangforscher's audio track."
+tags: 'Analog'
 background: '397a2c57ed623e46720be154ce7a5b18c3bde577'
 color: '#FFF'
 ---
