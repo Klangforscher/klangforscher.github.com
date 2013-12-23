@@ -1,0 +1,9 @@
+---
+layout: audio
+title: 'und alles was übrig bleibt'
+file: '2013-12-23-und-alles-was-uebrig-bleibt.mp3'
+tags: ''
+description: "klangforscher's audio track."
+background: '08db85e421d94819c7c5ff10a1af694ef9640ed2'
+color: '#C6B1C7'
+---
