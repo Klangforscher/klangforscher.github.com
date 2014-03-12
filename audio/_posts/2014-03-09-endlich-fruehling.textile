@@ -1,0 +1,9 @@
+---
+layout: audio
+title: 'Yeah! Frühling'
+file: '2014-03-09-endlich-fruehling.mp3'
+tags: 'Ambient'
+description: "klangforscher's audio track."
+background: 'c9f31aa1c4348270823f16120eb1201035f4690b'
+color: '#92C6EE'
+---
