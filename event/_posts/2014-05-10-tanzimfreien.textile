@@ -1,0 +1,4 @@
+---
+layout: default
+title: 'Tanz im Freien @ Lagerstrasse 10'
+---
